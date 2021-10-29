@@ -39,6 +39,208 @@
 
 <body>
 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">INCOV</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="./daerah.html">Informasi per Daerah</a></li>
+          <li><a class="nav-link scrollto" href="./berita.html">Berita Terkini</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Opening Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Informasi Statistik Singkat dan Berita Terkini COVID-19 di Indonesia</h1>
+          <h2>Group 9</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#skills" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Opening -->
+
+  <main id="main">
+    
+    <!-- ======= Statistic Section ======= -->
+    <section id="skills" class="skills mt-5">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-3 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-9 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Data Statistik Covid-19 di Indonesia</h3>
+            <p class="fst-italic">
+              Statistik Total dari Seluruh Indonesia
+            </p>
+
+            <div class="skills-content" >
+
+              <div class="progress ">
+                <span class="skill" style="font-size:15px;">Kasus Positif <i id= "homeKasusPositif" class="val" style="font-size:15px;">69.000</i></span>
+                <div class="progress-bar-wrap" style="height: 30px;">
+                  <div id= "homeKasusPositif1" class="progress-bar bg-danger" role="progressbar" style="height: 30px;" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress my-3">
+                <span class="skill" style="font-size:15px;">Kasus Kematian <i id ="homeKasusKematian" class="val" style="font-size:15px;"></i></span>
+                <div class="progress-bar-wrap" style="height: 30px;">
+                  <div id="homeKasusKematian1" class="progress-bar bg-secondary" role="progressbar"  style="height: 30px;" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill" style="font-size:15px;">Kasus Sembuh <i id="homeKasusSembuh" class="val" style="font-size:15px;"></i></span>
+                <div class="progress-bar-wrap" style="height: 30px;">
+                  <div id="homeKasusSembuh1" class="progress-bar bg-info" role="progressbar" style="height: 30px;"  aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <div  class="skill" style="font-size:15px;">Jumlah Total Masyarakat Indonesia <i id="homeJumlahTotal" class="val" style="font-size:15px;">272.229.372</i></div>
+                 <div  class="skill" style="font-size:15px;">Update Terakhir<i id="homeUpdateTerakhir" class="val" style="font-size:15px;"></i></div>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Statistic Section -->
+
+    <!-- ======= Daerah Section ======= -->
+    <section id="services" class="services section-bg pt-5 mt-5">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div style="display: flex; justify-content: space-between;">
+              <h2>Informasi per Daerah</h2>
+              <p><a href="./daerah.html">See More ></a></p>      
+          </div>
+      </div>
+
+        <div id="daftar-daerah" class="row ">
+        </div>
+
+      </div>
+    </section><!-- End Daerah Section -->
+
+    <!-- ======= Berita Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title" data-aos="zoom-in" data-aos-delay="100">
+          <div style="display: flex; justify-content: space-between;">
+              <h2>Berita Terkini</h2>
+              <p><a href="./berita.html">See More ></a></p>      
+          </div>
+      </div>
+
+        <div id="daftar-berita" class="row ">
+        </div>
+
+      </div>
+    </section><!-- End Berita Section -->
+
+    <!-- ======= Team Section ======= -->
+     <section id="team" class="team section-bg pt-5">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>We are from a group of nine with challenge partner National University of Singapore. We consist of 4 people consisting of:</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Piyadhammo Jansen Cenggono</h4>
+                <span>Universitas Tidar</span>
+                <p>Hello <br> My name is Piyadhammo Jansen Cenggono, often called Jansen, from Magelang, Jawa Tengah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Certa Yustitia</h4>
+                <span>Universitas Pembangunan Nasional Yogyakarta</span>
+                <p>Hello <br> My name is Certa Yustitia, often called Certa, from Yogyakarta, Jawa Tengah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Win Azmi</h4>
+                <span>Universitas Malikussaleh</span>
+                <p>Hello <br> My name is Win Azmi, often called Win, from Takengon, Aceh Tengah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Theresia Oktavia Marpaung</h4>
+                <span>Politeknik Negeri Medan</span>
+                <p>Hello <br> My name is Theresia Oktavia Marpaung, often called There, from Medan, Sumatra Utara.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>INCOV</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
